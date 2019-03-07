@@ -1,4 +1,2 @@
 # Cut-N-Paste
-# Cut-N-Paste
-# Cut-N-Paste
-# Cut-N-Paste
+Semantic Segmentation for Style Transfer with Pytorch

@@ -11,9 +11,9 @@ This project was based on combining two tools to create one end-to-end process:
 
 ## Running
 1) Place your desired image in *../Semantic_Segmentation/Images*
-2) Open file *../Semantic_Segmentation/create_semantic_segmentation.sh* and at the top chane the image name to the one you wish to use: *IMG=./Images/<input_image_name>*
+2) Open file *../Semantic_Segmentation/create_semantic_segmentation.sh* and at the top chane the image name to the one you wish to use: *TEST_IMG=./Images/<input_image_name>*
 
-In order to use simply run: *$ initialize.sh*  in the terminal.
+3) Run: *$ initialize.sh* in the terminal from base directory.
 
 ### First-Time:
 The Semantic Segmentation module encoder and decoder will be downloaded.

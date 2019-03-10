@@ -16,7 +16,7 @@ GLOBALS = {
     'IMG_STYLED': os.getcwd() + "/styled/",
 }
 PARAMETERS = {
-    'STYLE_STEPS': 5000,
+    'STYLE_STEPS': 800,
     'STYLE_WEIGHTS': 1000000,  # original is 1 mil
     'CONTENT_WEIGHTS': 1,
     'NUM_STYLES': 2,

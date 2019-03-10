@@ -31,8 +31,8 @@ def split_mask(merge=False):
 
     if merge:
         """merge small masks"""
-        PARAMETERS['NUM_MASKS'] = int(input("CHOOSE NUMBER OF SUBMASKS TO CREATE FROM IMAGE(MAX: %d):"
-                                            % len(color_dict)))
+        PARAMETERS['NUM_MASKS'] = int(input("CHOOSE NUMBER OF SUBMASKS TO CREATE FROM IMAGE(MAX: %d MIN: %d):"
+                                            % (len(color_dict), 2)))
         assert PARAMETERS['NUM_MASKS'] in range(1, len(color_dict)), "Number of masks is not appropriate"
 
         if len(color_dict) == PARAMETERS['NUM_MASKS']:

@@ -29,6 +29,5 @@ The Semantic Segmentation module encoder and decoder will be downloaded.
 
   
 ## Parameters
-
-#### Changing the image: 
-
+You can change global parameters in *tools.py* such as:
+the number of epochs used for the style transfer and the content or style weights. 

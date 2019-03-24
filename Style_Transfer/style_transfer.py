@@ -47,6 +47,7 @@ def run_style_transfer(cnn, normalization_mean, normalization_std,
                 print("Epoch {}:".format(run))
                 print('Style Loss: {:4f}; Content Loss: {:4f}'.format(
                     style_score.item(), content_score.item()))
+                PARAMETERS['EARLY_STOPPING'].append([style_score.item(), content_score.item(), run[0]])
                 if content_score.item() < early_stopping['CONTENT_LOSS']:
                     early_stopping['CONTENT_LOSS'] = content_score.item()
                     early_stopping['BEST_IMG'] = copy.deepcopy(input_img)

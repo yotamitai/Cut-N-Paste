@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # resize image
-TEST_IMG=./Images/fruit.jpg
+TEST_IMG=./Images/church.jpg
 python3 -u resize.py --img_path $TEST_IMG
 
 # Image and model names

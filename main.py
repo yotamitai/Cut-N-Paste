@@ -71,6 +71,18 @@ def main():
     print(40 * '-')
     print("\t\tFinished!")
     print(40 * '-')
+
+    """graphs of loss"""
+    # content = [x[0] for x in PARAMETERS['EARLY_STOPPING']]
+    # style = [x[1] for x in PARAMETERS['EARLY_STOPPING']]
+    # epoch = [x[2] for x in PARAMETERS['EARLY_STOPPING']]
+    # plt.plot(epoch, content, label='content')
+    # plt.plot(epoch, style, label='style')
+    # plt.legend(loc='best')
+    # plt.xlabel('Epochs')
+    # plt.ylabel('Loss')
+    # plt.show()
+
     return
 
 

@@ -2,7 +2,6 @@ from get_mask import *
 from Style_Transfer.style_tools import *
 from Style_Transfer.style_transfer import *
 from cut_n_paste import *
-import tkinter as tk
 
 
 def get_styles(style_list):

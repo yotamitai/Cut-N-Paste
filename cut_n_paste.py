@@ -44,13 +44,13 @@ def merge_masks(style_dict):
     final_img.show('Final Image')
 
     """for ilustration"""
-    counter = 0
-    for mask in style_dict.values():
-        new_img = np.zeros([512, 512, 3])
-        new_img += mask
-        new_img = toimage(new_img)
-        new_img.save('mask' + str(counter) + '.png')
-        counter += 1
+    # counter = 0
+    # for mask in style_dict.values():
+    #     new_img = np.zeros([512, 512, 3])
+    #     new_img += mask
+    #     new_img = toimage(new_img)
+    #     new_img.save('mask' + str(counter) + '.png')
+    #     counter += 1
 
     return
 

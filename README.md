@@ -31,3 +31,6 @@ The Semantic Segmentation module encoder and decoder will be downloaded.
 ## Parameters
 You can change global parameters in *tools.py* such as:
 the number of epochs used for the style transfer and the content or style weights. 
+
+# Environment
+Software: Ubuntu 16.04.3 LTS, CUDA>=8.0, Python>=3.5, PyTorch>=0.4.0

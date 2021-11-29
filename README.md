@@ -1,8 +1,10 @@
 # Cut-N-Paste
 A Tool for Semantic Segmentation and Style Transfer with Pytorch.
 
-# Examples:
-![alt_text](https://github.com/[yotamitai]/[Cut-N-Paste]/[results]/6.png?raw=true)
+For each segment of the original image it is possible to shoose a different style.
+
+Examples can be found in the results section.
+
 
 
 ### Credit:

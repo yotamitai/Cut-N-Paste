@@ -2,7 +2,7 @@
 A Tool for Semantic Segmentation and Style Transfer with Pytorch.
 
 # Examples:
-!(https://github.com/[yotamitai]/[Cut-N-Paste]/results/6.png?raw=true)
+![alt_text](https://github.com/[yotamitai]/[Cut-N-Paste]/results/6.png?raw=true)
 
 
 ### Credit:

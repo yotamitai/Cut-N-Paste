@@ -1,6 +1,10 @@
 # Cut-N-Paste
 A Tool for Semantic Segmentation and Style Transfer with Pytorch.
 
+# Examples:
+!(https://github.com/[yotamitai]/[Cut-N-Paste]/results/6.png?raw=true)
+
+
 ### Credit:
 This project was based on combining two tools to create one end-to-end process:
 1) Semantic Segmentation - https://github.com/CSAILVision/semantic-segmentation-pytorch
